@@ -5,4 +5,4 @@ shortestPath.o: shortestPath.cpp
         g++ -c shortestPath.cpp
 
 clean:
-        rm -f p8 *.o *-
+        rm -f mazeSolver *.o *-
