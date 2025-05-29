@@ -1,5 +1,5 @@
-p8: shortestPath.o
-        g++ -o p8 shortestPath.o
+mazeSolver: shortestPath.o
+        g++ -o mazeSolver shortestPath.o
 
 shortestPath.o: shortestPath.cpp
         g++ -c shortestPath.cpp
